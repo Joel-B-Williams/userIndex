@@ -1,7 +1,11 @@
 class RegistrationsController < Devise::RegistrationsController
   protected
     def after_sign_up_path_for(user)
-      root_path
+      list_path
+    end
+
+    def after_sign_in_path_for(user)
+      list_path
     end
 
   private 
