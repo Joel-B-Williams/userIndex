@@ -1,1 +1,8 @@
 <p> HOME PAGE </p>
+<ul>
+<% @users.each do |user| %>
+  <li>
+    <%= user.first_name%>
+  </li>
+<% end %>
+</ul>
