@@ -3,7 +3,12 @@ Rails.application.routes.draw do
  
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  root 'static#home'
-  get '/list' => 'static#list'
+  authenticated :user do
+    root to: 'static#home', as: :authenticated_root
+  end
+  
+  devise_scope :user do
+    root to: "devise/sessions#new"
+  end
   
 end
