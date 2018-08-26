@@ -3,6 +3,9 @@
 <% @users.each do |user| %>
   <li>
     <%= user.first_name%>
+    <% if policy(user).edit? %>
+      <%= link_to 'Edit', edit_user_registration_path(user) %>
+    <% end %>
   </li>
 <% end %>
 </ul>
