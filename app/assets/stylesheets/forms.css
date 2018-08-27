@@ -18,7 +18,9 @@
 
 .field input {
   width: 98%;
+  margin-bottom: 1%;
   padding: 2% 0 2% 2%;
+  background-color: aliceblue;
 }
 
 input.checkbox {
@@ -30,6 +32,7 @@ input.checkbox {
 .actions input, form.button_to input {
   width: 100%;
   border-radius: 5px;
+  padding: 2% 0 2% 0;
   background-color: mintcream;
   /* background-color: oldlace;1 */
 }
