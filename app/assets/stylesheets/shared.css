@@ -1,0 +1,19 @@
+* {
+  font-family: 'Dosis'
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.alert {
+  text-align: center;
+  position: fixed;
+  width: 35%;
+  margin: -3% 0 0 32%;
+  z-index: 2; 
+}

@@ -1,0 +1,13 @@
+.user_list {
+  width: 35%;
+  margin: auto;
+}
+
+.user_list li {
+  width: 35%;
+  margin: auto;
+}
+
+.user_list li a {
+  float: right;
+}
