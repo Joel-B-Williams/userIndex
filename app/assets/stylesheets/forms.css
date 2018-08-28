@@ -3,9 +3,6 @@
   margin: auto;
   padding: 5% 0 5% 0;
   background-color: powderblue;
-  /* background-color: aliceblue; */
-  /* background-color: honeydew; */
-  /* background-color: gainsboro; */
   back
 }
 
@@ -35,5 +32,4 @@ input.checkbox {
   padding: 2% 0 2% 0;
   background-color: mintcream;
   cursor: pointer;
-  /* background-color: oldlace;1 */
 }
