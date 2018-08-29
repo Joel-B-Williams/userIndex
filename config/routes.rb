@@ -14,5 +14,3 @@ Rails.application.routes.draw do
   get '/users/:id', to: 'registrations#edit'
   
 end
-
-# GET /users breaks (should lead to update) /users/edit.<id>
